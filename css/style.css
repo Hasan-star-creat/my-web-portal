@@ -49,5 +49,5 @@ body{}
  /* footer part  */
   .bg-footer{
       background-color: gray;
-      padding: 10px;
+      padding: 0, 10 10 10px;
   }
