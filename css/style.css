@@ -23,6 +23,12 @@ body{}
     background-color:#DD3333;
     padding: 10px;
 }
+.header-wrap{
+    color: #ffffff;
+}
+ .icon{
+     padding: 2px;
+ }
  /* slider   */
  .carousel-img img{
      height: 400px;
