@@ -17,8 +17,9 @@ ul, ol {
 }
 a{ text-decoration: none;}
 body{}
+    
 /* maing code start  */
-
+  
 .header-bg{
     background-color:#DD3333;
     padding: 10px;
@@ -45,9 +46,35 @@ body{}
      font-size: 30px;
      font-weight: bold;
  }
+ /* main part  */
+  main .img-part img{
+      width: 350px;
+      height: 300px;
+      
+  }
+  main .img-part{
+    opacity: 0.10;
+  }
+  main .img-part:hover{
+     opacity:1;
+     transform: translate(2em);
+     transition:transform ease-out 1s ;
+     background-color: #C7CBFD;
+     border-radius: 10px;
+    
+  }
+  #explor1{
+    display: none;
+ }
+  #explor2{
+    display: none;
+ }
+  #explor3{
+     display: none;
+  }
   
  /* footer part  */
   .bg-footer{
       background-color: gray;
-      padding: 0, 10 10 10px;
+    
   }
